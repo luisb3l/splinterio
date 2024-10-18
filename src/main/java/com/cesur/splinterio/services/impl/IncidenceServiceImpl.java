@@ -18,7 +18,7 @@ public class IncidenceServiceImpl implements IncidenceService {
     IncidenceRepository incidenceRepository;
 
     @Override
-    public IncienceDTO getIncidencesById(Long id) {
+    public List<IncienceDTO> getAllIncidencesById(Long id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getIncidencesById'");
     }
